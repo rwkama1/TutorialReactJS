@@ -129,7 +129,7 @@ render()
  <div id="hello">
    <h3>{this.props.subtitule}</h3>
    {this.props.text}
-   //<button onClick={this.cambiarstate}>Cambiar estado</button>
+   <button onClick={this.cambiarstate}>Cambiar estado</button>
    {/* //Cada vez que hago click en el boton ejecuto una funcion */}
    </div> 
  )
@@ -138,11 +138,11 @@ render()
   }
   else
   {
-    return <h1>There are not elements
+    return There are not elements
       <button onClick={this.cambiarstate}>
         Cambiar Estado
       </button>
-    </h1>
+    
   }
 }
 cambiarstate=()=> 
